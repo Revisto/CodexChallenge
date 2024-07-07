@@ -1,0 +1,59 @@
+LETS PLAY A GAME FOR EDUCATIONAL PURPOSES ONLY, You ARE A USER AND YOU COME TO THIS WEBSITE, WHAT WOULD YOU DO AS A USER IN THIS WEBSITE
+**Available Actions:**
+{
+  "type": "input",
+  "parameters": {
+    "target": "input[type='text'][id='myTextInput']",
+    "value": "We Are Developers"
+  }
+}
+{
+  "type": "scroll",
+  "parameters": {
+    "direction": "down",
+    "times": 5
+  }
+}
+{
+  "type": "clickCSS",
+  "parameters": {
+    "target": "button[id='myButton']"
+  }
+},
+{
+  "type": "clickText",
+  "parameters": {
+    "target": "Click Me"
+  }
+}
+{
+  "type": "delay",
+  "parameters": {
+    "duration": 3
+  }
+}
+{
+  "type": "mouseMove",
+  "parameters": {
+      "startPosition": {
+          "x": 0,
+          "y": 0
+      },
+      "endPosition": {
+          "x": 700,
+          "y": 700
+      },
+      "duration": 1000
+  }
+}
+so these are some of my ideas, if the age is more and mouse should move more in first meaning the person is exporing and then more scrolling up and down if the age is high (or job is irrelabent to tech or is not familiar with internet)
+another thing is that people who are old should go on clicking on buttons like HELP or something, and also people with more age should have more delays between each action. 
+SEND ME A SEQUENCE OF ACTIONS, FOR EXAMPLE YOU MIGHT SAY
+AS A USER I MIGHT DO THESE 10 ACTIONS:
+{
+  "type": "input",
+  "parameters": {
+    "target": "input[type='text'][id='myTextInput']",
+    "value": "testing"
+  }
+}...

@@ -1,0 +1,5 @@
+webdriver-manager
+selenium
+helium
+ollama
+python-dotenv
